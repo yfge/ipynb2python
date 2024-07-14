@@ -1,7 +1,21 @@
 # ipynb2python
 
 ## Description
+ 一个简单的工具，用于将jupyter notebook文件转换为python文件。
 
-This is a simple tool to convert Jupyter notebooks to Python scripts. It is a command line tool that takes a Jupyter notebook as input and outputs a Python script. It is useful for converting Jupyter notebooks to Python scripts for use in production environments.
+## Installation
 
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python ipynb2python.py INPUT_DIR OUTPUT_DIR
+```
+
+## Tips
+
+1. 如果想知道教学环境中的包，可以在learn.agiclass.ai中查看,打开一个终端，输入`pip freeze`查看所有包。
   
